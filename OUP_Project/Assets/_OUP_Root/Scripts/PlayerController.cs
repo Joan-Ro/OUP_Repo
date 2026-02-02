@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
@@ -24,6 +25,21 @@ public class PlayerController2D : MonoBehaviour
     private int jumpsLeft;
     private int currentHealth;
     private bool isDead;
+
+    Vector2 startPos;
+
+    private void Start()
+    {
+        startPos = transform.position;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Die();
+        }
+    }
 
     void Awake()
     {
@@ -124,18 +140,12 @@ public class PlayerController2D : MonoBehaviour
     }
     void Die()
     {
-        isDead = true;
-        rb.linearVelocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Static;
-
-        Debug.Log("Jugador muerto");
+        StartCoroutine(Respawn(0.5f));
     }
-    void OnDestroy()
+    IEnumerator Respawn(float durration)
     {
-        if (isDead) return;
-        {
-            Destroy(gameObject);
-        }
+        yield return new WaitForSeconds(durration);
+        transform.position = startPos;
     }
 
     // GIZMOS
