@@ -39,11 +39,15 @@ public class PlayerController2D : MonoBehaviour
         MoveSideways();
         CheckWallForJump();
 
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (
+            Input.GetKeyDown(KeyCode.Space) ||
+            (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        )
         {
             PlayerJump();
         }
     }
+
 
     // MOVIMIENTO
 
@@ -118,7 +122,6 @@ public class PlayerController2D : MonoBehaviour
         if (currentHealth <= 0)
             Die();
     }
-
     void Die()
     {
         isDead = true;
@@ -127,7 +130,6 @@ public class PlayerController2D : MonoBehaviour
 
         Debug.Log("Jugador muerto");
     }
-
     void OnDestroy()
     {
         if (isDead) return;
