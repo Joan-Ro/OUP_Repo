@@ -45,7 +45,7 @@ public class PlayerController2D : MonoBehaviour
         }
     }
 
-    // ───────── MOVIMIENTO ─────────
+    // MOVIMIENTO
 
     void MoveSideways()
     {
@@ -64,7 +64,7 @@ public class PlayerController2D : MonoBehaviour
             jumpsLeft = 1;
     }
 
-    // ───────── SALTO ─────────
+    // SALTO
 
     void PlayerJump()
     {
@@ -79,7 +79,7 @@ public class PlayerController2D : MonoBehaviour
         }
     }
 
-    // ───────── COLISIONES ─────────
+    // COLISIONES
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -107,7 +107,7 @@ public class PlayerController2D : MonoBehaviour
         );
     }
 
-    // ───────── VIDA ─────────
+    // VIDA
 
     void TakeHit()
     {
@@ -128,8 +128,15 @@ public class PlayerController2D : MonoBehaviour
         Debug.Log("Jugador muerto");
     }
 
-    // ───────── GIZMOS ─────────
+    void OnDestroy()
+    {
+        if (isDead) return;
+        {
+            Destroy(gameObject);
+        }
+    }
 
+    // GIZMOS
     void OnDrawGizmosSelected()
     {
         if (wallCheck == null) return;
