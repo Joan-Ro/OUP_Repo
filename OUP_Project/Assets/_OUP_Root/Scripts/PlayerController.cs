@@ -15,7 +15,9 @@ public class PlayerController2D : MonoBehaviour
     [Header("ENEMIGOS")]
     public LayerMask enemyLayer;
 
-    // ───── Privadas ─────
+    [Header("INPUT")]
+
+    // Privadas
     private Rigidbody2D rb;
     private bool movingRight = true;
     private bool touchingWall;
@@ -23,7 +25,7 @@ public class PlayerController2D : MonoBehaviour
     private int currentHealth;
     private bool isDead;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
@@ -37,8 +39,10 @@ public class PlayerController2D : MonoBehaviour
         MoveSideways();
         CheckWallForJump();
 
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
-            Jump();
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        {
+            PlayerJump();
+        }
     }
 
     // ───────── MOVIMIENTO ─────────
@@ -48,8 +52,6 @@ public class PlayerController2D : MonoBehaviour
         float dir = movingRight ? 1f : -1f;
         rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
     }
-
-    // 👉 SOLO para saber si puede saltar
     void CheckWallForJump()
     {
         touchingWall = Physics2D.OverlapCircle(
@@ -64,7 +66,7 @@ public class PlayerController2D : MonoBehaviour
 
     // ───────── SALTO ─────────
 
-    void Jump()
+    void PlayerJump()
     {
         if (touchingWall)
         {
@@ -81,7 +83,7 @@ public class PlayerController2D : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        // Cambio de dirección al chocar con pared
+        // Cambiar dirección al chocar con pared
         if (((1 << collision.gameObject.layer) & wallLayer) != 0)
         {
             ChangeDirection();
@@ -136,5 +138,6 @@ public class PlayerController2D : MonoBehaviour
         Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
     }
 }
+
 
 
