@@ -2,25 +2,38 @@ using UnityEngine;
 using TMPro;
 public class PickUP_Counter : MonoBehaviour
 {
-    public TextMeshProUGUI counterText;
+    public static PickUP_Counter instance;
     public TextMeshProUGUI coinText;
-    public int pickUpCount = 0;
+    public int pickUpCount;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    private void Awake()
     {
-        // Fix: Assign the correct TextMeshProUGUI component instead of 'this'
-        counterText = GetComponent<TextMeshProUGUI>();
+        if (instance == null)
+        {
+            instance = this;
+        }  
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    void Start()
+    private void Start()
     {
-        coinText.text = "COINS: " + pickUpCount.ToString();
+        UpdateCoinText();
     }
 
-    public void IncreaseCoins()
+    public void IncreaseCoins(int value)
     {
-        pickUpCount += 1;
-        coinText.text = "TextCoins" + pickUpCount.ToString();
+        pickUpCount += value;
+        UpdateCoinText();
+    }
+
+    private void UpdateCoinText()
+    {
+        if (coinText != null)
+        {
+            coinText.text = pickUpCount.ToString();
+        }
     }
 }
