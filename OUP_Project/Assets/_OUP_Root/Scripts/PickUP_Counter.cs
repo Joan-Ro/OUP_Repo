@@ -15,12 +15,12 @@ public class PickUP_Counter : MonoBehaviour
 
     void Start()
     {
-        coinText.text = "Coins: " + pickUpCount.ToString();
+        coinText.text = "COINS: " + pickUpCount.ToString();
     }
 
     public void IncreaseCoins()
     {
         pickUpCount += 1;
-        coinText.text = "COINS: " + pickUpCount.ToString();
+        coinText.text = "TextCoins" + pickUpCount.ToString();
     }
 }
