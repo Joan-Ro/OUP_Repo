@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 544d1963d78dca74187855d3c0eb1429
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3812435252898370990
+    second: EnemigoBolaGrandePinchosDie_0
+  - first:
+      213: -8267343201008503950
+    second: EnemigoBolaGrandePinchosDie_1
+  - first:
+      213: 7876445098852401057
+    second: EnemigoBolaGrandePinchosDie_2
+  - first:
+      213: -7238771274343510269
+    second: EnemigoBolaGrandePinchosDie_3
+  - first:
+      213: 3080006674933651821
+    second: EnemigoBolaGrandePinchosDie_4
+  - first:
+      213: -1612721070662339756
+    second: EnemigoBolaGrandePinchosDie_5
+  - first:
+      213: -5358695634991498607
+    second: EnemigoBolaGrandePinchosDie_6
+  - first:
+      213: -6557641192379665511
+    second: EnemigoBolaGrandePinchosDie_7
+  - first:
+      213: -4111454578034113904
+    second: EnemigoBolaGrandePinchosDie_8
+  - first:
+      213: 3551750851331801824
+    second: EnemigoBolaGrandePinchosDie_9
+  - first:
+      213: -1382408840903681862
+    second: EnemigoBolaGrandePinchosDie_10
+  - first:
+      213: 3834121240700290804
+    second: EnemigoBolaGrandePinchosDie_11
+  - first:
+      213: -4639466756655041563
+    second: EnemigoBolaGrandePinchosDie_12
+  - first:
+      213: -2069486807404449296
+    second: EnemigoBolaGrandePinchosDie_13
+  - first:
+      213: 9058354485288973814
+    second: EnemigoBolaGrandePinchosDie_14
+  - first:
+      213: 3207184645876052810
+    second: EnemigoBolaGrandePinchosDie_15
+  - first:
+      213: 76333630869099454
+    second: EnemigoBolaGrandePinchosDie_16
+  - first:
+      213: -482357127435358249
+    second: EnemigoBolaGrandePinchosDie_17
+  - first:
+      213: 64389404094193614
+    second: EnemigoBolaGrandePinchosDie_18
+  - first:
+      213: 3368110390372460872
+    second: EnemigoBolaGrandePinchosDie_19
+  - first:
+      213: -2417726724422189764
+    second: EnemigoBolaGrandePinchosDie_20
+  - first:
+      213: 1032901590307285067
+    second: EnemigoBolaGrandePinchosDie_21
+  - first:
+      213: -1755374519818984462
+    second: EnemigoBolaGrandePinchosDie_22
+  - first:
+      213: 832090038298277304
+    second: EnemigoBolaGrandePinchosDie_23
+  - first:
+      213: 7622772542184329785
+    second: EnemigoBolaGrandePinchosDie_24
+  - first:
+      213: 735453878912943275
+    second: EnemigoBolaGrandePinchosDie_25
+  - first:
+      213: 2672742686578752636
+    second: EnemigoBolaGrandePinchosDie_26
+  - first:
+      213: 8666717368471092280
+    second: EnemigoBolaGrandePinchosDie_27
+  - first:
+      213: 3532288917447361353
+    second: EnemigoBolaGrandePinchosDie_28
+  - first:
+      213: -5147850442699313629
+    second: EnemigoBolaGrandePinchosDie_29
+  - first:
+      213: 3697304605044532659
+    second: EnemigoBolaGrandePinchosDie_30
+  - first:
+      213: 2668996703558894054
+    second: EnemigoBolaGrandePinchosDie_31
+  - first:
+      213: -3052168602106808498
+    second: EnemigoBolaGrandePinchosDie_32
+  - first:
+      213: -5188473014740207729
+    second: EnemigoBolaGrandePinchosDie_33
+  - first:
+      213: -3370631419956164342
+    second: EnemigoBolaGrandePinchosDie_34
+  - first:
+      213: 3591210914258840436
+    second: EnemigoBolaGrandePinchosDie_35
+  - first:
+      213: 5386063880813085522
+    second: EnemigoBolaGrandePinchosDie_36
+  - first:
+      213: -1263350722002674271
+    second: EnemigoBolaGrandePinchosDie_37
+  - first:
+      213: 5891422787425559058
+    second: EnemigoBolaGrandePinchosDie_38
+  - first:
+      213: -4857118660085772250
+    second: EnemigoBolaGrandePinchosDie_39
+  - first:
+      213: 1155918834134229550
+    second: EnemigoBolaGrandePinchosDie_40
+  - first:
+      213: -245992226535316259
+    second: EnemigoBolaGrandePinchosDie_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ae0dd2652871bc0800000000000000
+      internalID: -3812435252898370990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273b5a3392f744d80800000000000000
+      internalID: -8267343201008503950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afb6f11611ce4d60800000000000000
+      internalID: 7876445098852401057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f047ee0e7ba8b90800000000000000
+      internalID: -7238771274343510269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69904590c16eba20800000000000000
+      internalID: 3080006674933651821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45332651bb67e99e0800000000000000
+      internalID: -1612721070662339756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a35e826b612a5b0800000000000000
+      internalID: -5358695634991498607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaGrandePinchosDie_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993bdb354149ef4a0800000000000000
+      internalID: -6557641192379665511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 49b9610b9dfaaa84ea95a85227467533
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      EnemigoBolaGrandePinchosDie_0: -3812435252898370990
+      EnemigoBolaGrandePinchosDie_1: -8267343201008503950
+      EnemigoBolaGrandePinchosDie_2: 7876445098852401057
+      EnemigoBolaGrandePinchosDie_3: -7238771274343510269
+      EnemigoBolaGrandePinchosDie_4: 3080006674933651821
+      EnemigoBolaGrandePinchosDie_5: -1612721070662339756
+      EnemigoBolaGrandePinchosDie_6: -5358695634991498607
+      EnemigoBolaGrandePinchosDie_7: -6557641192379665511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
