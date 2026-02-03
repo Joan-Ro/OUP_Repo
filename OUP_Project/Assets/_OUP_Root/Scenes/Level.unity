@@ -721,7 +721,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b6c1c27f5cf2b147a388a62691c47e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  counterText: {fileID: 0}
   coinText: {fileID: 202002891}
   pickUpCount: 0
 --- !u!1 &229307960
