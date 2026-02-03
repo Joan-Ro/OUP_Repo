@@ -1,25 +1,133 @@
 fileFormatVersion: 2
-guid: 088c42eded2eb9d4b94b94ccaa582feb
+guid: d974e19233efa084e9e4f7d17bf21728
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1410522877664025832
-    second: EnemigoBasePinchoRun_0
+      213: 1872690166190849608
+    second: EnemigoBolaPinchosDie_0
   - first:
-      213: 1191000581438579417
-    second: EnemigoBasePinchoRun_1
+      213: -2546738889671647704
+    second: EnemigoBolaPinchosDie_1
   - first:
-      213: 4348915751517927292
-    second: EnemigoBasePinchoRun_2
+      213: 7923064983569432223
+    second: EnemigoBolaPinchosDie_2
   - first:
-      213: 6617639859424392942
-    second: EnemigoBasePinchoRun_3
+      213: -1948716207623082122
+    second: EnemigoBolaPinchosDie_3
   - first:
-      213: 227688814284505791
-    second: EnemigoBasePinchoRun_4
+      213: 2665492569025581817
+    second: EnemigoBolaPinchosDie_4
   - first:
-      213: 2202397518249666183
-    second: EnemigoBasePinchoRun_5
+      213: -4274537568942557818
+    second: EnemigoBolaPinchosDie_5
+  - first:
+      213: 2625303608068402066
+    second: EnemigoBolaPinchosDie_6
+  - first:
+      213: -8691666035560753451
+    second: EnemigoBolaPinchosDie_7
+  - first:
+      213: 3950446754528149422
+    second: EnemigoBolaPinchosDie_8
+  - first:
+      213: 2408682773270402574
+    second: EnemigoBolaPinchosDie_9
+  - first:
+      213: 3888970951769211265
+    second: EnemigoBolaPinchosDie_10
+  - first:
+      213: -1918065312425087776
+    second: EnemigoBolaPinchosDie_11
+  - first:
+      213: -8199618854709653708
+    second: EnemigoBolaPinchosDie_12
+  - first:
+      213: 6987449998049723067
+    second: EnemigoBolaPinchosDie_13
+  - first:
+      213: 2130949149564903624
+    second: EnemigoBolaPinchosDie_14
+  - first:
+      213: -9088525767343232466
+    second: EnemigoBolaPinchosDie_15
+  - first:
+      213: -726519305387079362
+    second: EnemigoBolaPinchosDie_16
+  - first:
+      213: 780311649288323235
+    second: EnemigoBolaPinchosDie_17
+  - first:
+      213: 2001395207991923274
+    second: EnemigoBolaPinchosDie_18
+  - first:
+      213: -5842314560284339218
+    second: EnemigoBolaPinchosDie_19
+  - first:
+      213: -6733570181216252217
+    second: EnemigoBolaPinchosDie_20
+  - first:
+      213: -956585030056058020
+    second: EnemigoBolaPinchosDie_21
+  - first:
+      213: -8863003366863261356
+    second: EnemigoBolaPinchosDie_22
+  - first:
+      213: -6085042988249896989
+    second: EnemigoBolaPinchosDie_23
+  - first:
+      213: 7351730755061212289
+    second: EnemigoBolaPinchosDie_24
+  - first:
+      213: 7128359136444444058
+    second: EnemigoBolaPinchosDie_25
+  - first:
+      213: 2721094516773274181
+    second: EnemigoBolaPinchosDie_26
+  - first:
+      213: -780092139104754326
+    second: EnemigoBolaPinchosDie_27
+  - first:
+      213: 536272130805344849
+    second: EnemigoBolaPinchosDie_28
+  - first:
+      213: 2689661561332369719
+    second: EnemigoBolaPinchosDie_29
+  - first:
+      213: 5776971532625423860
+    second: EnemigoBolaPinchosDie_30
+  - first:
+      213: -13903208002585003
+    second: EnemigoBolaPinchosDie_31
+  - first:
+      213: -8270784466191605176
+    second: EnemigoBolaPinchosDie_32
+  - first:
+      213: 7718650406609633335
+    second: EnemigoBolaPinchosDie_33
+  - first:
+      213: 4357043818002990990
+    second: EnemigoBolaPinchosDie_34
+  - first:
+      213: -5855952390597832226
+    second: EnemigoBolaPinchosDie_35
+  - first:
+      213: 5061906435571310634
+    second: EnemigoBolaPinchosDie_36
+  - first:
+      213: 1925979598143004630
+    second: EnemigoBolaPinchosDie_37
+  - first:
+      213: 6214468904189467251
+    second: EnemigoBolaPinchosDie_38
+  - first:
+      213: -3335784110249061214
+    second: EnemigoBolaPinchosDie_39
+  - first:
+      213: 8252794242602258522
+    second: EnemigoBolaPinchosDie_40
+  - first:
+      213: 8822375361463507984
+    second: EnemigoBolaPinchosDie_41
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +160,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,46 +207,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -167,7 +236,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_0
+      name: EnemigoBolaPinchosDie_0
       rect:
         serializedVersion: 2
         x: 0
@@ -182,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81326418ae0dc6ce0800000000000000
-      internalID: -1410522877664025832
+      spriteID: 84e3c22c8c12df910800000000000000
+      internalID: 1872690166190849608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_1
+      name: EnemigoBolaPinchosDie_1
       rect:
         serializedVersion: 2
         x: 192
@@ -204,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d22ee7f7b8478010800000000000000
-      internalID: 1191000581438579417
+      spriteID: 82ed279197a28acd0800000000000000
+      internalID: -2546738889671647704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_2
+      name: EnemigoBolaPinchosDie_2
       rect:
         serializedVersion: 2
         x: 384
@@ -226,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c77b35f95d37a5c30800000000000000
-      internalID: 4348915751517927292
+      spriteID: f9efdf5df9164fd60800000000000000
+      internalID: 7923064983569432223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_3
+      name: EnemigoBolaPinchosDie_3
       rect:
         serializedVersion: 2
         x: 576
@@ -248,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee6f470f36496db50800000000000000
-      internalID: 6617639859424392942
+      spriteID: 67f64941fe4c4f4e0800000000000000
+      internalID: -1948716207623082122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_4
+      name: EnemigoBolaPinchosDie_4
       rect:
         serializedVersion: 2
         x: 768
@@ -270,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb202ce25c9e82300800000000000000
-      internalID: 227688814284505791
+      spriteID: 9f296308e5bbdf420800000000000000
+      internalID: 2665492569025581817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnemigoBasePinchoRun_5
+      name: EnemigoBolaPinchosDie_5
       rect:
         serializedVersion: 2
         x: 960
@@ -292,8 +361,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7862971cfdc709e10800000000000000
-      internalID: 2202397518249666183
+      spriteID: 685fd108abacda4c0800000000000000
+      internalID: -4274537568942557818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaPinchosDie_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29be77ad8b3fe6420800000000000000
+      internalID: 2625303608068402066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemigoBolaPinchosDie_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6d2148acff06780800000000000000
+      internalID: -8691666035560753451
       vertices: []
       indices: 
       edges: []
@@ -302,8 +415,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b3884121c018f0c4d9d7e2323a47bc8e
-    internalID: 877560545
+    spriteID: 05fd32c9591d10e4b958f6c1ab803d4d
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -314,12 +427,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      EnemigoBasePinchoRun_0: -1410522877664025832
-      EnemigoBasePinchoRun_1: 1191000581438579417
-      EnemigoBasePinchoRun_2: 4348915751517927292
-      EnemigoBasePinchoRun_3: 6617639859424392942
-      EnemigoBasePinchoRun_4: 227688814284505791
-      EnemigoBasePinchoRun_5: 2202397518249666183
+      EnemigoBolaPinchosDie_0: 1872690166190849608
+      EnemigoBolaPinchosDie_1: -2546738889671647704
+      EnemigoBolaPinchosDie_2: 7923064983569432223
+      EnemigoBolaPinchosDie_3: -1948716207623082122
+      EnemigoBolaPinchosDie_4: 2665492569025581817
+      EnemigoBolaPinchosDie_5: -4274537568942557818
+      EnemigoBolaPinchosDie_6: 2625303608068402066
+      EnemigoBolaPinchosDie_7: -8691666035560753451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
