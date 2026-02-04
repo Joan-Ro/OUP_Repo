@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6600227970696679470}
   - component: {fileID: 7396925747189917893}
   - component: {fileID: 6482406325697065285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemieBasePincho
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

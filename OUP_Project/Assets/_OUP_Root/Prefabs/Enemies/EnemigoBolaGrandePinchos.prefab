@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2709969687262990142}
   - component: {fileID: 1706919112987143343}
   - component: {fileID: 5041558984149224016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EnemigoBolaGrandePinchos
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
