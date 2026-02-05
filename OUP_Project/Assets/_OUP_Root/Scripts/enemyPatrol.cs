@@ -1,46 +1,88 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class enemyPatrol : MonoBehaviour
+public class EnemyPatrol2D : MonoBehaviour
 {
-    public GameObject pointA;
-    public GameObject pointB;
-    private Rigidbody rb;
-    private Animator anim;
-    private Transform currentPoint;
-    public float speed; 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("PATRULLA")]
+    public float speed = 2f;
+    public float leftLimit;
+    public float rightLimit;
+
+    [Header("MUERTE")]
+    public float deathDelay = 0.5f;
+    public float jumpForce = 5f; // <--- 1. NUEVA VARIABLE
+
+    private bool movingRight = true;
+    private bool isDead;
+
+    private Animator animator;
+    private Collider2D col;
+
+    void Awake()
     {
-        rb = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
-        currentPoint = pointB.transform;
-        anim.SetBool("isRunning", true);
+        animator = GetComponent<Animator>();
+        col = GetComponent<Collider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector2 point = currentPoint.position - transform.position;
-        if(currentPoint == pointB.transform)
-        {
-            rb.linearVelocity = new Vector2(speed, 0);
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(-speed, 0); 
-        }
+        if (isDead) return;
+        Patrol();
+    }
 
-        if(Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+    void Patrol()
+    {
+        float dir = movingRight ? 1 : -1;
+        transform.Translate(Vector2.right * dir * speed * Time.deltaTime);
+
+        if (movingRight && transform.position.x >= rightLimit)
+            ChangeDirection();
+        else if (!movingRight && transform.position.x <= leftLimit)
+            ChangeDirection();
+    }
+
+    void ChangeDirection()
+    {
+        movingRight = !movingRight;
+        transform.localScale = new Vector3(movingRight ? 1 : -1, 1, 1);
+    }
+
+    // 2. SUSTITUYE TU OnTriggerEnter2D POR ESTE:
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (isDead) return;
+
+        if (other.CompareTag("PlayerFeet"))
         {
-            currentPoint = pointA.transform;
-        }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
-        {
-            currentPoint = pointB.transform;
+            // Buscamos el Rigidbody2D en el objeto que colisionó o en su padre
+            Rigidbody2D playerRb = other.GetComponentInParent<Rigidbody2D>();
+            
+            if (playerRb != null)
+            {
+                // Aplicamos el impulso hacia arriba (Vector2.up)
+                playerRb.linearVelocity = new Vector2(playerRb.linearVelocity.x, jumpForce);
+            }
+
+            Die();
         }
     }
 
-    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (isDead) return;
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.SendMessage("Die", SendMessageOptions.DontRequireReceiver);
+        }
+    }
+
+    void Die()
+    {
+        isDead = true;
+        animator.SetBool("IsDead", true);
+        col.enabled = false; 
+        Destroy(gameObject, deathDelay);
+    }
 }
+
 
