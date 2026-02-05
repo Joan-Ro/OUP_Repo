@@ -1,0 +1,2156 @@
+fileFormatVersion: 2
+guid: 7172dcb182683894faf12ac96a2b6f5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1957594355036676212
+    second: Titulo_Mole-Way_0
+  - first:
+      213: -1578354130517435122
+    second: Titulo_Mole-Way_1
+  - first:
+      213: -381353353554853638
+    second: Titulo_Mole-Way_2
+  - first:
+      213: -113056916601839884
+    second: Titulo_Mole-Way_3
+  - first:
+      213: 3011435670069779265
+    second: Titulo_Mole-Way_4
+  - first:
+      213: 2233749524354918671
+    second: Titulo_Mole-Way_5
+  - first:
+      213: -2130212687333387378
+    second: Titulo_Mole-Way_6
+  - first:
+      213: 7833315657894156606
+    second: Titulo_Mole-Way_7
+  - first:
+      213: 6113789127907196082
+    second: Titulo_Mole-Way_8
+  - first:
+      213: -741123406972585916
+    second: Titulo_Mole-Way_9
+  - first:
+      213: 5748129402828357156
+    second: Titulo_Mole-Way_10
+  - first:
+      213: 4349334888235109305
+    second: Titulo_Mole-Way_11
+  - first:
+      213: -386864260782311625
+    second: Titulo_Mole-Way_12
+  - first:
+      213: 3558365485539173088
+    second: Titulo_Mole-Way_13
+  - first:
+      213: -7910768012085496439
+    second: Titulo_Mole-Way_14
+  - first:
+      213: 5279948682847326272
+    second: Titulo_Mole-Way_15
+  - first:
+      213: -2897351475759265170
+    second: Titulo_Mole-Way_16
+  - first:
+      213: -8473502793261333803
+    second: Titulo_Mole-Way_17
+  - first:
+      213: 4201031083909847093
+    second: Titulo_Mole-Way_18
+  - first:
+      213: 2952397040605492517
+    second: Titulo_Mole-Way_19
+  - first:
+      213: 2291733016392081429
+    second: Titulo_Mole-Way_20
+  - first:
+      213: -3132809946863776952
+    second: Titulo_Mole-Way_21
+  - first:
+      213: -1896791856315818200
+    second: Titulo_Mole-Way_22
+  - first:
+      213: 4718102072519963603
+    second: Titulo_Mole-Way_23
+  - first:
+      213: 1281629565648632507
+    second: Titulo_Mole-Way_24
+  - first:
+      213: 6306666198067418014
+    second: Titulo_Mole-Way_25
+  - first:
+      213: 7277107588890709228
+    second: Titulo_Mole-Way_26
+  - first:
+      213: -9072316488811628120
+    second: Titulo_Mole-Way_27
+  - first:
+      213: 4849061332635095071
+    second: Titulo_Mole-Way_28
+  - first:
+      213: 1555065161046181544
+    second: Titulo_Mole-Way_29
+  - first:
+      213: 3788125175384782597
+    second: Titulo_Mole-Way_30
+  - first:
+      213: 7217214555914577454
+    second: Titulo_Mole-Way_31
+  - first:
+      213: 1873415742955502514
+    second: Titulo_Mole-Way_32
+  - first:
+      213: 5866807076452618636
+    second: Titulo_Mole-Way_33
+  - first:
+      213: 5818091317761783698
+    second: Titulo_Mole-Way_34
+  - first:
+      213: -4720699557291436385
+    second: Titulo_Mole-Way_35
+  - first:
+      213: 6120075494144581371
+    second: Titulo_Mole-Way_36
+  - first:
+      213: 8032170941871344495
+    second: Titulo_Mole-Way_37
+  - first:
+      213: 6407518428921676775
+    second: Titulo_Mole-Way_38
+  - first:
+      213: -5652776566776782469
+    second: Titulo_Mole-Way_39
+  - first:
+      213: 2601496942444382727
+    second: Titulo_Mole-Way_40
+  - first:
+      213: 1516119747110524762
+    second: Titulo_Mole-Way_41
+  - first:
+      213: 4111367974053707847
+    second: Titulo_Mole-Way_42
+  - first:
+      213: -1834909273093497646
+    second: Titulo_Mole-Way_43
+  - first:
+      213: 6793520604305670541
+    second: Titulo_Mole-Way_44
+  - first:
+      213: -3294094414890708411
+    second: Titulo_Mole-Way_45
+  - first:
+      213: -2720267664217597727
+    second: Titulo_Mole-Way_46
+  - first:
+      213: -2755614489563292841
+    second: Titulo_Mole-Way_47
+  - first:
+      213: 8898143999109822562
+    second: Titulo_Mole-Way_48
+  - first:
+      213: -5077289779452882723
+    second: Titulo_Mole-Way_49
+  - first:
+      213: 3769856751059892257
+    second: Titulo_Mole-Way_50
+  - first:
+      213: -7196813010417701650
+    second: Titulo_Mole-Way_51
+  - first:
+      213: -7999119597330146305
+    second: Titulo_Mole-Way_52
+  - first:
+      213: 2545239684015975363
+    second: Titulo_Mole-Way_53
+  - first:
+      213: -1110359063891663210
+    second: Titulo_Mole-Way_54
+  - first:
+      213: -2933309747295486514
+    second: Titulo_Mole-Way_55
+  - first:
+      213: -8651925300564315496
+    second: Titulo_Mole-Way_56
+  - first:
+      213: 9074132215989252155
+    second: Titulo_Mole-Way_57
+  - first:
+      213: -9054624996651113972
+    second: Titulo_Mole-Way_58
+  - first:
+      213: -982315377830775655
+    second: Titulo_Mole-Way_59
+  - first:
+      213: -2955970493505958101
+    second: Titulo_Mole-Way_60
+  - first:
+      213: 4063089319005803206
+    second: Titulo_Mole-Way_61
+  - first:
+      213: 8858301974026541576
+    second: Titulo_Mole-Way_62
+  - first:
+      213: -8665267050120740388
+    second: Titulo_Mole-Way_63
+  - first:
+      213: 6014602771639730952
+    second: Titulo_Mole-Way_64
+  - first:
+      213: 7581896222733873309
+    second: Titulo_Mole-Way_65
+  - first:
+      213: 5297068033920319856
+    second: Titulo_Mole-Way_66
+  - first:
+      213: -5874469549681151225
+    second: Titulo_Mole-Way_67
+  - first:
+      213: -6424087952503169419
+    second: Titulo_Mole-Way_68
+  - first:
+      213: 1909782165902205974
+    second: Titulo_Mole-Way_69
+  - first:
+      213: -2860394807934007775
+    second: Titulo_Mole-Way_70
+  - first:
+      213: 4771164709516809922
+    second: Titulo_Mole-Way_71
+  - first:
+      213: 9195909709024850771
+    second: Titulo_Mole-Way_72
+  - first:
+      213: -56359396895804534
+    second: Titulo_Mole-Way_73
+  - first:
+      213: -6982420282342689002
+    second: Titulo_Mole-Way_74
+  - first:
+      213: -1170452091316754034
+    second: Titulo_Mole-Way_75
+  - first:
+      213: 8645478929627202961
+    second: Titulo_Mole-Way_76
+  - first:
+      213: -3111134758198434858
+    second: Titulo_Mole-Way_77
+  - first:
+      213: -3400959918611083055
+    second: Titulo_Mole-Way_78
+  - first:
+      213: -2304153423089550230
+    second: Titulo_Mole-Way_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_0
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1052
+        width: 66
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4706542b1b5ca2b10800000000000000
+      internalID: 1957594355036676212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1138
+        width: 207
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ddcb0e74f881ae0800000000000000
+      internalID: -1578354130517435122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1180
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0857b352925baf0800000000000000
+      internalID: -381353353554853638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_3
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1167
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fedb8655575e6ef0800000000000000
+      internalID: -113056916601839884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_4
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1173
+        width: 59
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b137269c4cac920800000000000000
+      internalID: 3011435670069779265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_5
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1184
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f096f548b5fdffe10800000000000000
+      internalID: 2233749524354918671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_6
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 977
+        width: 96
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e839673e8d6ff62e0800000000000000
+      internalID: -2130212687333387378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_7
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1058
+        width: 84
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e395942961785bc60800000000000000
+      internalID: 7833315657894156606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_8
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1167
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcbd80d1da88d450800000000000000
+      internalID: 6113789127907196082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1146
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448fba0203007b5f0800000000000000
+      internalID: -741123406972585916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1140
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42eff8aac3575cf40800000000000000
+      internalID: 5748129402828357156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_11
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1128
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb877e7901fb5c30800000000000000
+      internalID: 4349334888235109305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_12
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1126
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737b6c7210591aaf0800000000000000
+      internalID: -386864260782311625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_13
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1108
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2a29a5e8ad16130800000000000000
+      internalID: 3558365485539173088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_14
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1023
+        width: 22
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985fe13f76e473290800000000000000
+      internalID: -7910768012085496439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_15
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1103
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04018694a55264940800000000000000
+      internalID: 5279948682847326272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_16
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1108
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a4ae10f2a8ac7d0800000000000000
+      internalID: -2897351475759265170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1089
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2c064aa12186a80800000000000000
+      internalID: -8473502793261333803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_18
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1044
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53812d6438f0d4a30800000000000000
+      internalID: 4201031083909847093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_19
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1071
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5257439477509f820800000000000000
+      internalID: 2952397040605492517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_20
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 995
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510a51a490fddcf10800000000000000
+      internalID: 2291733016392081429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_21
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1040
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bcf50a3f50684d0800000000000000
+      internalID: -3132809946863776952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_22
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 758
+        width: 260
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f11773bdd3da5e0800000000000000
+      internalID: -1896791856315818200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_23
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 998
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3369e56d01a7140800000000000000
+      internalID: 4718102072519963603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_24
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 817
+        width: 176
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaff12bc4349c110800000000000000
+      internalID: 1281629565648632507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_25
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 809
+        width: 194
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9395c43e77c58750800000000000000
+      internalID: 6306666198067418014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_26
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 941
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec412cdbca7df460800000000000000
+      internalID: 7277107588890709228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_27
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 810
+        width: 80
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9b67a7838a81280800000000000000
+      internalID: -9072316488811628120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_28
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 581
+        width: 322
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f101cc137935b4340800000000000000
+      internalID: 4849061332635095071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_29
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 828
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a64ebe5683b49510800000000000000
+      internalID: 1555065161046181544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 797
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5073683d6cf129430800000000000000
+      internalID: 3788125175384782597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_31
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 815
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2621117662b82460800000000000000
+      internalID: 7217214555914577454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_32
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 755
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbbc7341b5bff910800000000000000
+      internalID: 1873415742955502514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_33
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 390
+        width: 50
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81d4bdc3f51b6150800000000000000
+      internalID: 5866807076452618636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_34
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 647
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297b9f95a330eb050800000000000000
+      internalID: 5818091317761783698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_35
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 647
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96dc4493c4bc7eb0800000000000000
+      internalID: -4720699557291436385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_36
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 582
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe9f038c30eee450800000000000000
+      internalID: 6120075494144581371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_37
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 528
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bc4755ae0087f60800000000000000
+      internalID: 8032170941871344495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_38
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 465
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e345a700141ce850800000000000000
+      internalID: 6407518428921676775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 593
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b712e9689ad4d81b0800000000000000
+      internalID: -5652776566776782469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_40
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 553
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a89a29faf5a1420800000000000000
+      internalID: 2601496942444382727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_41
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 522
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a575a7390e65a0510800000000000000
+      internalID: 1516119747110524762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_42
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 485
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7408362b3638e0930800000000000000
+      internalID: 4111367974053707847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_43
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 422
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc1136ecb71986e0800000000000000
+      internalID: -1834909273093497646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_44
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 503
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81cfe9fefe674e50800000000000000
+      internalID: 6793520604305670541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_45
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 471
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54257df15960942d0800000000000000
+      internalID: -3294094414890708411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_46
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 408
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e81454d8faaf3ad0800000000000000
+      internalID: -2720267664217597727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_47
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 389
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b19abb83712c9d0800000000000000
+      internalID: -2755614489563292841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_48
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 578
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268f633a2de8c7b70800000000000000
+      internalID: 8898143999109822562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_49
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 547
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd05df1a8d7d989b0800000000000000
+      internalID: -5077289779452882723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 540
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287805ddb8315430800000000000000
+      internalID: 3769856751059892257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_51
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 478
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeca42782b8cf1c90800000000000000
+      internalID: -7196813010417701650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_52
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 414
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb554d7b1b6df090800000000000000
+      internalID: -7999119597330146305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_53
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 537
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbeff1e102825320800000000000000
+      internalID: 2545239684015975363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 461
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6962a9770563790f0800000000000000
+      internalID: -1110359063891663210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_55
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 553
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdf240835aca47d0800000000000000
+      internalID: -2933309747295486514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_56
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 402
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89236ac67cf2ee780800000000000000
+      internalID: -8651925300564315496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_57
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 655
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30b7f27c2bcded70800000000000000
+      internalID: 9074132215989252155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_58
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 390
+        width: 88
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02ec3cf982875280800000000000000
+      internalID: -9054624996651113972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_59
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 461
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9943efe4e5d1e52f0800000000000000
+      internalID: -982315377830775655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_60
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 447
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f8a006f784af6d0800000000000000
+      internalID: -2955970493505958101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_61
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 498
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2560e553ef26830800000000000000
+      internalID: 4063089319005803206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_62
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 462
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a5efa46b20fea70800000000000000
+      internalID: 8858301974026541576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_63
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 487
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd108a94789ceb780800000000000000
+      internalID: -8665267050120740388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_64
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 389
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8038aa4aa59287350800000000000000
+      internalID: 6014602771639730952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_65
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 389
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90bde7a17e483960800000000000000
+      internalID: 7581896222733873309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_66
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 485
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071c5e0df47f28940800000000000000
+      internalID: 5297068033920319856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_67
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 401
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f76f9111b97ea0800000000000000
+      internalID: -5874469549681151225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_68
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 468
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e9e212b0e09d6a0800000000000000
+      internalID: -6424087952503169419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_69
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 455
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6142afce2c8e08a10800000000000000
+      internalID: 1909782165902205974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_70
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 446
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126c8b3c316dd48d0800000000000000
+      internalID: -2860394807934007775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_71
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 443
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c611ab4605963240800000000000000
+      internalID: 4771164709516809922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_72
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 401
+        width: 50
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353fdf8882f6e9f70800000000000000
+      internalID: 9195909709024850771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_73
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 589
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8335485d65c73ff0800000000000000
+      internalID: -56359396895804534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_74
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 585
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6173b766fb5791f90800000000000000
+      internalID: -6982420282342689002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_75
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 587
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89a3763608b1cfe0800000000000000
+      internalID: -1170452091316754034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Titulo_Mole-Way_76
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 589
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195cd81e749eaf770800000000000000
+      internalID: 8645478929627202961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a3975471747e42247891593259e15368
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Titulo_Mole-Way_0: 1957594355036676212
+      Titulo_Mole-Way_1: -1578354130517435122
+      Titulo_Mole-Way_10: 5748129402828357156
+      Titulo_Mole-Way_11: 4349334888235109305
+      Titulo_Mole-Way_12: -386864260782311625
+      Titulo_Mole-Way_13: 3558365485539173088
+      Titulo_Mole-Way_14: -7910768012085496439
+      Titulo_Mole-Way_15: 5279948682847326272
+      Titulo_Mole-Way_16: -2897351475759265170
+      Titulo_Mole-Way_17: -8473502793261333803
+      Titulo_Mole-Way_18: 4201031083909847093
+      Titulo_Mole-Way_19: 2952397040605492517
+      Titulo_Mole-Way_2: -381353353554853638
+      Titulo_Mole-Way_20: 2291733016392081429
+      Titulo_Mole-Way_21: -3132809946863776952
+      Titulo_Mole-Way_22: -1896791856315818200
+      Titulo_Mole-Way_23: 4718102072519963603
+      Titulo_Mole-Way_24: 1281629565648632507
+      Titulo_Mole-Way_25: 6306666198067418014
+      Titulo_Mole-Way_26: 7277107588890709228
+      Titulo_Mole-Way_27: -9072316488811628120
+      Titulo_Mole-Way_28: 4849061332635095071
+      Titulo_Mole-Way_29: 1555065161046181544
+      Titulo_Mole-Way_3: -113056916601839884
+      Titulo_Mole-Way_30: 3788125175384782597
+      Titulo_Mole-Way_31: 7217214555914577454
+      Titulo_Mole-Way_32: 1873415742955502514
+      Titulo_Mole-Way_33: 5866807076452618636
+      Titulo_Mole-Way_34: 5818091317761783698
+      Titulo_Mole-Way_35: -4720699557291436385
+      Titulo_Mole-Way_36: 6120075494144581371
+      Titulo_Mole-Way_37: 8032170941871344495
+      Titulo_Mole-Way_38: 6407518428921676775
+      Titulo_Mole-Way_39: -5652776566776782469
+      Titulo_Mole-Way_4: 3011435670069779265
+      Titulo_Mole-Way_40: 2601496942444382727
+      Titulo_Mole-Way_41: 1516119747110524762
+      Titulo_Mole-Way_42: 4111367974053707847
+      Titulo_Mole-Way_43: -1834909273093497646
+      Titulo_Mole-Way_44: 6793520604305670541
+      Titulo_Mole-Way_45: -3294094414890708411
+      Titulo_Mole-Way_46: -2720267664217597727
+      Titulo_Mole-Way_47: -2755614489563292841
+      Titulo_Mole-Way_48: 8898143999109822562
+      Titulo_Mole-Way_49: -5077289779452882723
+      Titulo_Mole-Way_5: 2233749524354918671
+      Titulo_Mole-Way_50: 3769856751059892257
+      Titulo_Mole-Way_51: -7196813010417701650
+      Titulo_Mole-Way_52: -7999119597330146305
+      Titulo_Mole-Way_53: 2545239684015975363
+      Titulo_Mole-Way_54: -1110359063891663210
+      Titulo_Mole-Way_55: -2933309747295486514
+      Titulo_Mole-Way_56: -8651925300564315496
+      Titulo_Mole-Way_57: 9074132215989252155
+      Titulo_Mole-Way_58: -9054624996651113972
+      Titulo_Mole-Way_59: -982315377830775655
+      Titulo_Mole-Way_6: -2130212687333387378
+      Titulo_Mole-Way_60: -2955970493505958101
+      Titulo_Mole-Way_61: 4063089319005803206
+      Titulo_Mole-Way_62: 8858301974026541576
+      Titulo_Mole-Way_63: -8665267050120740388
+      Titulo_Mole-Way_64: 6014602771639730952
+      Titulo_Mole-Way_65: 7581896222733873309
+      Titulo_Mole-Way_66: 5297068033920319856
+      Titulo_Mole-Way_67: -5874469549681151225
+      Titulo_Mole-Way_68: -6424087952503169419
+      Titulo_Mole-Way_69: 1909782165902205974
+      Titulo_Mole-Way_7: 7833315657894156606
+      Titulo_Mole-Way_70: -2860394807934007775
+      Titulo_Mole-Way_71: 4771164709516809922
+      Titulo_Mole-Way_72: 9195909709024850771
+      Titulo_Mole-Way_73: -56359396895804534
+      Titulo_Mole-Way_74: -6982420282342689002
+      Titulo_Mole-Way_75: -1170452091316754034
+      Titulo_Mole-Way_76: 8645478929627202961
+      Titulo_Mole-Way_8: 6113789127907196082
+      Titulo_Mole-Way_9: -741123406972585916
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
