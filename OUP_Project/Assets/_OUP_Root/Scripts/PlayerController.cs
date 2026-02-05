@@ -24,7 +24,8 @@ public class PlayerController2D : MonoBehaviour
     public float jumpForce = 12f;
     public float doubleJumpForce = 14f;
     public float wallSlideSpeed = 2f;
-    public float wallJumpForce = 12f;
+    public float wallJumpHorizontalForce = 18f;
+    public float wallJumpVerticalForce = 16f;
     public int maxHealth = 1;
 
     [Header("WALL CHECK")]
@@ -35,13 +36,17 @@ public class PlayerController2D : MonoBehaviour
     [Header("ENEMIGOS")]
     public LayerMask enemyLayer;
 
+    [Header("WALL JUMP LOCK")]
+    public float wallJumpLockDuration = 0.2f;
+    private float wallJumpLockTimer;
+
     // PRIVADAS
     private bool movingRight = true;
     private bool touchingWall;
     private int jumpsLeft;
     private int currentHealth;
     private bool isDead;
-    Vector2 startPos;
+    private Vector2 startPos;
 
     void Awake()
     {
@@ -67,15 +72,23 @@ public class PlayerController2D : MonoBehaviour
         MoveSideways();
         UpdateAnimator();
 
-        if (Input.GetKeyDown(KeyCode.Space) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
+        // SALTO: espacio (PC) o toque (móvil)
+        if (Input.GetKeyDown(KeyCode.Space) ||
+            (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
         {
             PlayerJump();
         }
+
+        if (wallJumpLockTimer > 0f)
+            wallJumpLockTimer -= Time.deltaTime;
     }
+
+    // ================= MOVIMIENTO =================
 
     void MoveSideways()
     {
-        if (rb == null || isDead || isWallSliding) return;  // ← No corre en slide
+        if (rb == null || isDead || isWallSliding || wallJumpLockTimer > 0f)
+            return;
 
         float dir = movingRight ? 1f : -1f;
         rb.linearVelocity = new Vector2(dir * moveSpeed, rb.linearVelocity.y);
@@ -83,14 +96,17 @@ public class PlayerController2D : MonoBehaviour
 
     void CheckWallAndTurn()
     {
-        if (!isGrounded || isWallSliding) return;  // ← Solo suelo, ignora en slide
+        if (!isGrounded || isWallSliding || wallJumpLockTimer > 0f)
+            return;
 
-        bool wallAhead = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius * 0.8f, wallLayer);  // ← Radius chico anti-prematuro
+        bool wallAhead = Physics2D.OverlapCircle(
+            wallCheck.position,
+            wallCheckRadius * 0.8f,
+            wallLayer
+        );
+
         if (wallAhead)
-        {
             ChangeDirection();
-            Debug.Log("Giro pared: " + (movingRight ? "derecha" : "izquierda"));
-        }
     }
 
     void ChangeDirection()
@@ -99,56 +115,54 @@ public class PlayerController2D : MonoBehaviour
         transform.localScale = new Vector3(movingRight ? 1 : -1, 1, 1);
     }
 
+    // ================= SALTO =================
+
     void PlayerJump()
     {
         if (isDead) return;
 
+        // WALL JUMP
         if (isWallSliding)
         {
-            // FUERZA MASIVA + DESAPEGUE
-            rb.linearVelocity = new Vector2(0, 0);  // ← RESET VELOCIDAD (desapega YA)
-            bool wallOnRight = wallCheck.position.x > transform.position.x;
-            float jumpX = wallOnRight ? -25f : 25f;  // ← FUERZA FIJA FUERTÍSIMA
-            rb.linearVelocity = new Vector2(jumpX, 20f);
+            rb.linearVelocity = Vector2.zero;
 
+            bool wallOnRight = wallCheck.position.x > transform.position.x;
+
+            // Dirección opuesta a la pared
+            movingRight = !wallOnRight;
+
+            // Girar sprite inmediatamente
+            transform.localScale = new Vector3(movingRight ? 1 : -1, 1, 1);
+
+            float jumpX = movingRight ? wallJumpHorizontalForce : -wallJumpHorizontalForce;
+
+            rb.linearVelocity = new Vector2(jumpX, wallJumpVerticalForce);
+
+            wallJumpLockTimer = wallJumpLockDuration;
             jumpsLeft = 1;
             isWallSliding = false;
-            animator.SetBool("isJumping", true);
 
-            StartCoroutine(WallJumpCooldown());
-            Debug.Log("DESAPEGUE FUERTE: " + (wallOnRight ? "→IZQ" : "→DER"));
+            animator.SetBool("isJumping", true);
             return;
         }
 
-
-        // SALTO NORMAL suelo
+        // SALTO NORMAL
         if (isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x * 0.5f, jumpForce);
             jumpsLeft = 1;
-            isRolling = false;
             animator.SetBool("isJumping", true);
             return;
         }
 
         // DOBLE SALTO
-        if (!isGrounded && jumpsLeft > 0 && !isWallSliding)
+        if (!isGrounded && jumpsLeft > 0)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x * 0.5f, doubleJumpForce);
             jumpsLeft--;
             StartCoroutine(RollAnimation());
-            return;
         }
-
-        if (isGrounded) { /* ... */ }
-        if (!isGrounded && jumpsLeft > 0 && !isWallSliding) { /* ... */ }
     }
-
-    IEnumerator WallJumpCooldown()
-    {
-        yield return new WaitForSeconds(0.25f);  // ← +Largo anti-rebote
-    }
-
 
     IEnumerator RollAnimation()
     {
@@ -157,17 +171,21 @@ public class PlayerController2D : MonoBehaviour
         isRolling = false;
     }
 
+    // ================= WALL SLIDE =================
+
     void HandleWallSlide()
     {
-        touchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius * 0.9f, wallLayer);  // ← Sensible post-salto
+        touchingWall = Physics2D.OverlapCircle(
+            wallCheck.position,
+            wallCheckRadius * 0.9f,
+            wallLayer
+        );
 
-        if (touchingWall && !isGrounded && rb.linearVelocity.y < 0)
+        if (touchingWall && !isGrounded && rb.linearVelocity.y < 0 && wallJumpLockTimer <= 0f)
         {
             isWallSliding = true;
-            rb.linearVelocity = new Vector2(0, -wallSlideSpeed);  // ← X=0 anti-mueve slide
-                                                                  // resto...
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -wallSlideSpeed);
         }
-
         else
         {
             isWallSliding = false;
@@ -181,8 +199,15 @@ public class PlayerController2D : MonoBehaviour
             touchingWall = false;
             return;
         }
-        touchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
+
+        touchingWall = Physics2D.OverlapCircle(
+            wallCheck.position,
+            wallCheckRadius,
+            wallLayer
+        );
     }
+
+    // ================= VIDA =================
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -193,22 +218,23 @@ public class PlayerController2D : MonoBehaviour
     void TakeHit()
     {
         if (isDead) return;
+
         currentHealth--;
-        if (currentHealth <= 0) Die();
+        if (currentHealth <= 0)
+            Die();
     }
 
     void Die()
     {
-        if (isDead) return;
         isDead = true;
         animator.SetBool("isDead", true);
         rb.linearVelocity = Vector2.zero;
         StartCoroutine(Respawn(0.5f));
     }
 
-    IEnumerator Respawn(float duration)
+    IEnumerator Respawn(float delay)
     {
-        yield return new WaitForSeconds(duration);
+        yield return new WaitForSeconds(delay);
         transform.position = startPos;
         isDead = false;
         animator.SetBool("isDead", false);
@@ -216,10 +242,13 @@ public class PlayerController2D : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    // ================= ANIMACIONES =================
+
     void UpdateAnimator()
     {
         verticalVelocity = rb.linearVelocity.y;
-        isJumping = verticalVelocity > 0.1f && !isGrounded && !isWallSliding && !isRolling;
+
+        isJumping = verticalVelocity > 0.1f && !isGrounded && !isWallSliding;
         isFalling = verticalVelocity < -0.1f && !isGrounded && !isWallSliding;
 
         animator.SetBool("isGrounded", isGrounded);
@@ -230,15 +259,24 @@ public class PlayerController2D : MonoBehaviour
         animator.SetBool("isDead", isDead);
     }
 
+    // ================= GROUND =================
+
     void CheckGround()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundCheckRadius,
+            groundLayer
+        );
+
         if (isGrounded)
         {
             jumpsLeft = 1;
-            isWallSliding = false;  // ← Reset slide en suelo
+            isWallSliding = false;
         }
     }
+
+    // ================= GIZMOS =================
 
     void OnDrawGizmosSelected()
     {
@@ -247,6 +285,7 @@ public class PlayerController2D : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
         }
+
         if (groundCheck != null)
         {
             Gizmos.color = Color.green;
@@ -254,6 +293,7 @@ public class PlayerController2D : MonoBehaviour
         }
     }
 }
+
 
 
 
