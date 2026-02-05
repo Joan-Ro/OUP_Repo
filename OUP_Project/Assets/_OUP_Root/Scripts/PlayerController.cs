@@ -212,7 +212,7 @@ public class PlayerController2D : MonoBehaviour
         transform.position = startPos;
         isDead = false;
         animator.SetBool("isDead", false);
-        animator.SetTrigger("respawn");
+        animator.SetTrigger("respown");
         currentHealth = maxHealth;
     }
 
