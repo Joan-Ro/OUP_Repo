@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -233,14 +234,11 @@ public class PlayerController2D : MonoBehaviour
     }
 
     IEnumerator Respawn(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        transform.position = startPos;
-        isDead = false;
-        animator.SetBool("isDead", false);
-        animator.SetTrigger("respown");
-        currentHealth = maxHealth;
-    }
+{
+    yield return new WaitForSeconds(delay);
+    // Reinicia la escena actual por completo
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+}
 
     // ================= ANIMACIONES =================
 
